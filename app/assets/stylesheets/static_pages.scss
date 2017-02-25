@@ -1,3 +1,32 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+a {
+  background-color: #057;
+  color: #000;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  padding: 2px 2px 2px 1px;
+  text-decoration: none;
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #605;
+  }
+}
+#btn {
+	background-color: #500;
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #aa0;	
+  }
+}
