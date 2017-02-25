@@ -4,7 +4,7 @@
 
 a {
   background-color: #057;
-  color: #000;
+  color: #fff;
   border-style: solid;
   border-width: 1px;
   border-color: #000;
@@ -13,6 +13,7 @@ a {
   &:visited {
     color: #fff;
   }
+  
 
   &:hover {
     color: #fff;
